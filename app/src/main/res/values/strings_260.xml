@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="playmods_260_text_officially_released">Officially Released</string>
+    <string name="playmods_260_text_bespeak_num">Pre-registrant：%s</string>
+    <string name="playmods_260_text_bespeak_title">Pre-Register Games</string>
+    <string name="playmods_260_text_fastest_online">Fastest Online</string>
+    <string name="playmods_260_text_registered_most">Registered Most</string>
+    <string name="playmods_260_text_pre_register_btn">Pre-Register</string>
+    <string name="playmods_260_text_registered_btn">Registered</string>
+    <string name="playmods_260_title_pre_register_successfully">Pre-Register successfully</string>
+    <string name="playmods_260_tips_pre_register_successfully">You will be notified in time when the game is online</string>
+    <string name="playmods_260_tips_cancel_pre_register">After canceling the pre-register, you will not be able to receive the game launch notification</string>
+    <string name="playmods_260_btn_think_again">Think again</string>
+    <string name="playmods_260_btn_confirm_cancel">Confirm cancel</string>
+    <string name="playmods_260_text_registered_records">Registered Records</string>
+    <string name="playmods_260_btn_cancel_pre_register">Cancel Pre-Register</string>
+    <string name="playmods_260_btn_del_record">Delete Record</string>
+    <string name="playmods_260_txt_released">Released</string>
+    <string name="playmods_260_txt_coming_soon">Coming Soon</string>
+    <string name="playmods_260_txt_release_date">Release Date: %s</string>
+    <string name="playmods_260_title_space_tool">Space Tool</string>
+
+    <string name="playmods_260_txt_month_1">Jan</string>
+    <string name="playmods_260_txt_month_2">Feb</string>
+    <string name="playmods_260_txt_month_3">Mar</string>
+    <string name="playmods_260_txt_month_4">Apr</string>
+    <string name="playmods_260_txt_month_5">May</string>
+    <string name="playmods_260_txt_month_6">Jun</string>
+    <string name="playmods_260_txt_month_7">Jul</string>
+    <string name="playmods_260_txt_month_8">Aug</string>
+    <string name="playmods_260_txt_month_9">Sept</string>
+    <string name="playmods_260_txt_month_10">Oct</string>
+    <string name="playmods_260_txt_month_11">Nov</string>
+    <string name="playmods_260_txt_month_12">Dec</string>
+</resources>

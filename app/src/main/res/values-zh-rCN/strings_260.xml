@@ -1,0 +1,34 @@
+<resources>
+    <string name="playmods_260_text_officially_released">正式发布</string>
+    <string name="playmods_260_text_bespeak_num">预注册者：%s</string>
+    <string name="playmods_260_text_bespeak_title">预注册游戏</string>
+    <string name="playmods_260_text_fastest_online">最快在线</string>
+    <string name="playmods_260_text_registered_most">注册最多</string>
+    <string name="playmods_260_text_pre_register_btn">预登记</string>
+    <string name="playmods_260_text_registered_btn">挂号的</string>
+    <string name="playmods_260_title_pre_register_successfully">预注册成功</string>
+    <string name="playmods_260_tips_pre_register_successfully">游戏上线时会及时通知您</string>
+    <string name="playmods_260_tips_cancel_pre_register">取消预约后，您将无法收到游戏上线通知</string>
+    <string name="playmods_260_btn_think_again">再想一想</string>
+    <string name="playmods_260_btn_confirm_cancel">确认取消</string>
+    <string name="playmods_260_text_registered_records">注册记录</string>
+    <string name="playmods_260_btn_cancel_pre_register">取消预注册</string>
+    <string name="playmods_260_btn_del_record">删除记录</string>
+    <string name="playmods_260_txt_released">已发布</string>
+    <string name="playmods_260_txt_coming_soon">即将推出</string>
+    <string name="playmods_260_txt_release_date">发布日期</string>
+    <string name="playmods_260_title_space_tool">空间工具</string>
+
+    <string name="playmods_260_txt_month_1">扬</string>
+    <string name="playmods_260_txt_month_2">二月</string>
+    <string name="playmods_260_txt_month_3">三月</string>
+    <string name="playmods_260_txt_month_4">四月</string>
+    <string name="playmods_260_txt_month_5">可能</string>
+    <string name="playmods_260_txt_month_6">君</string>
+    <string name="playmods_260_txt_month_7">七月</string>
+    <string name="playmods_260_txt_month_8">八月</string>
+    <string name="playmods_260_txt_month_9">九月</string>
+    <string name="playmods_260_txt_month_10">十月</string>
+    <string name="playmods_260_txt_month_11">十一月</string>
+    <string name="playmods_260_txt_month_12">十二月</string>
+</resources>

@@ -1,0 +1,102 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+import java.text.SimpleDateFormat
+import java.util.Date
+
+task generateVersionProperties {
+    def versionPropertiesFile = file('version.properties')
+    def versionProps = new Properties()
+
+    // 获取当前日期和时间
+    def currentDate = new Date()
+    def dateFormat = new SimpleDateFormat('yyyyMMdd')
+    def timestamp = dateFormat.format(currentDate)
+
+    // 读取之前的版本信息
+    if (versionPropertiesFile.exists()) {
+        versionProps.load(new FileInputStream(versionPropertiesFile))
+    }
+
+    // 检查上一次生成版本的日期
+    def lastGeneratedDate = versionProps.getProperty('lastGeneratedDate')
+
+    // 检查运行次数
+    def runCount = versionProps.getProperty('runCount', '0').toInteger()
+    runCount++
+
+    // 如果上次生成版本的日期和当前日期不一致，则重置运行次数
+    if (lastGeneratedDate != timestamp) {
+        runCount = 1
+    }
+
+    // 设置versionCode和versionName
+    def versionCode = timestamp + String.format("%02d", runCount)
+    versionProps.setProperty('versionCode', versionCode)
+    versionProps.setProperty('lastGeneratedDate', timestamp)
+    versionProps.setProperty('runCount', runCount.toString())
+
+    // 将属性写入version.properties文件
+    versionProps.store(versionPropertiesFile.newWriter(), null)
+}
+
+android {
+    namespace 'com.example.myapplication'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.wangxingxing.myapplication"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        // 从version.properties文件中读取版本信息
+        def versionPropsFile = file('version.properties')
+        def versionProps = new Properties()
+        versionProps.load(new FileInputStream(versionPropsFile))
+
+        versionCode versionProps['versionCode'].toInteger()
+        versionName versionProps['versionName']
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    viewBinding {
+        enabled = true
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    implementation 'com.blankj:utilcodex:1.31.1'
+
+    // 代码定位插件
+    implementation "com.bytedance.tools.codelocator:codelocator-core:2.0.3"
+    debugImplementation "com.bytedance.tools.codelocator:codelocator-lancet-all:2.0.3"
+}

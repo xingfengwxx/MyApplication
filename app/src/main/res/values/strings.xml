@@ -1,0 +1,58 @@
+<resources>
+    <!--  不翻译  -->
+    <string name="app_name" translatable="false">MyApplication</string>
+    <string name="tools_desc" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscingelit. Aenean euismod bibendum laoreet. Proingravida dolor sit amet lacus accumsan et viverrajusto commodo.</string>
+
+    <!-- 网络 -->
+    <string name="error_view_tip">Click screen retry</string>
+
+    <string name="txt_mod">Mod</string>
+    <string name="txt_code">Code</string>
+    <string name="txt_search">Search</string>
+    <string name="txt_how_to_use">How to Use</string>
+    <string name="txt_download_size">Download %sMB</string>
+    <string name="txt_delete">Delete</string>
+    <string name="txt_use_mod">Use Mod</string>
+    <string name="txt_no_more_details">no more details</string>
+    <string name="txt_privacy_agreement">Privacy Agreement</string>
+    <string name="txt_rate_us">Rate us</string>
+    <string name="txt_invite">Invite</string>
+    <string name="txt_search_history">Search History</string>
+    <string name="txt_copy_code">Copy Code</string>
+    <string name="txt_use">Use</string>
+    <string name="txt_select_all">Select All</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_share">Share</string>
+    <string name="txt_start_using">Start Using</string>
+    <string name="txt_start_using_desc">Melon Playground mod tool developed by playmods.net</string>
+    <string name="txt_to_authorize">To authorize</string>
+    <string name="txt_to_download">Download Melon Playground</string>
+    <string name="txt_select_game">Please select a game to use the mod</string>
+    <string name="txt_confirm">Confirm</string>
+    <string name="txt_continue">Continue</string>
+    <string name="txt_open_later">Open Later</string>
+    <string name="txt_open_now">Open Now</string>
+    <string name="txt_open_the_game_now">Open the game now?</string>
+    <string name="txt_popular">Popular</string>
+    <string name="txt_latest">Latest</string>
+
+    <string name="toast_use_mod_fail">Use mod fail~</string>
+    <string name="toast_use_mod_suc">Use mod success~</string>
+
+    <string name="tips_to_search">Enter keywords to search</string>
+    <string name="tips_search_no_result">No search results, try another keyword</string>
+    <string name="tips_android_data_permission_notice_archive">Downloading modules requires authorization-related permissions. You can click the Authorize button to enter the authorization page, and click [Use this folder] at the bottom to complete the authorization.</string>
+    <string name="tips_deleting">Deleting&#8230;</string>
+    <string name="tips_imported_mod">Mod is being imported into the game</string>
+    <string name="tips_del_mod">Are you sure to delete this mod and downloaded mod files?</string>
+    <string name="tips_clear_search_history">Are you sure you want to delete search history?</string>
+    <string name="tips_uninstalled">After installing Melon Playground, you can directly enter the game to use the mod after downloading the mod.</string>
+
+    <string name="title_details">Details</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_my_download">My Downloads</string>
+    <string name="title_del_mod">Delete Mod</string>
+
+    <string name="playmods_260_space_dlg_vip_desc_experience"><Data><![CDATA[This function is exclusive to members,and the free experience lasts for: <font color="#FF0000">%s</font> <font color="#0000FF">days~</font> Becoming a member does not limit the experience~]]></Data></string>
+
+</resources>

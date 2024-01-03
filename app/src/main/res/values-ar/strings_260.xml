@@ -1,0 +1,34 @@
+<resources>
+    <string name="playmods_260_text_officially_released">صدر رسميا</string>
+    <string name="playmods_260_text_bespeak_num">المسجل المسبق:%s</string>
+    <string name="playmods_260_text_bespeak_title">ألعاب التسجيل المسبق</string>
+    <string name="playmods_260_text_fastest_online">الأسرع على الإنترنت</string>
+    <string name="playmods_260_text_registered_most">الأكثر تسجيلاً</string>
+    <string name="playmods_260_text_pre_register_btn">التسجيل المسبق</string>
+    <string name="playmods_260_text_registered_btn">مسجل</string>
+    <string name="playmods_260_title_pre_register_successfully">تم التسجيل المسبق بنجاح</string>
+    <string name="playmods_260_tips_pre_register_successfully">سيتم إعلامك في الوقت المناسب عندما تكون اللعبة متاحة على الإنترنت</string>
+    <string name="playmods_260_tips_cancel_pre_register">بعد إلغاء التسجيل المسبق، لن تتمكن من تلقي إشعار إطلاق اللعبة</string>
+    <string name="playmods_260_btn_think_again">فكر مرة اخرى</string>
+    <string name="playmods_260_btn_confirm_cancel">تأكيد الإلغاء</string>
+    <string name="playmods_260_text_registered_records">السجلات المسجلة</string>
+    <string name="playmods_260_btn_cancel_pre_register">إلغاء التسجيل المسبق</string>
+    <string name="playmods_260_btn_del_record">حذف سجل</string>
+    <string name="playmods_260_txt_released">مطلق سراحه</string>
+    <string name="playmods_260_txt_coming_soon">قريباً</string>
+    <string name="playmods_260_txt_release_date">تاريخ الإصدار: %s</string>
+    <string name="playmods_260_title_space_tool">أداة الفضاء</string>
+
+    <string name="playmods_260_txt_month_1">يناير</string>
+    <string name="playmods_260_txt_month_2">فبراير</string>
+    <string name="playmods_260_txt_month_3">مارس</string>
+    <string name="playmods_260_txt_month_4">أبريل</string>
+    <string name="playmods_260_txt_month_5">يمكن</string>
+    <string name="playmods_260_txt_month_6">يونيو</string>
+    <string name="playmods_260_txt_month_7">يوليو</string>
+    <string name="playmods_260_txt_month_8">أغسطس</string>
+    <string name="playmods_260_txt_month_9">سبتمبر</string>
+    <string name="playmods_260_txt_month_10">أكتوبر</string>
+    <string name="playmods_260_txt_month_11">نوفمبر</string>
+    <string name="playmods_260_txt_month_12">ديسمبر</string>
+</resources>
