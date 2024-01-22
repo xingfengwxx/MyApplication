@@ -43,6 +43,8 @@ class MainActivity : AppCompatActivity() {
         val id = "a1332"
         val uuid = "android" + UUID.nameUUIDFromBytes(id.toByteArray()).toString().replace("-", "")
         Log.d("wxx", "UUID: $uuid")
+
+        checkSpaceEnv()
     }
 
     private fun checkPermissions() {
@@ -141,5 +143,11 @@ class MainActivity : AppCompatActivity() {
         editor.putString("shared_key", "Hello, other app! This data is shared.")
         editor.apply()
         LogUtils.i("写入共享数据")
+    }
+
+    private fun checkSpaceEnv() {
+        val pmField = packageManager.javaClass.getDeclaredField("mPM")
+        pmField.isAccessible = true
+        Log.d("wxx", "checkSpaceEnv: pmField=" + pmField[packageManager].javaClass.superclass.name)
     }
 }
